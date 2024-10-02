@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900;display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans',sans-serif
+}
+body{
+    background: #FFFFFF;
+    color:black
+}
+.logo{
+    font-family: 'Allerta Stencil';
+   
+}
+.hea{
+    color: #A18A68;
+   
+}
+.viewall{
+    color: #A18A68;
+}
+.pro img{
+    
+    transition: .5s ease;
+}
+.pro:hover img{
+    transform: scale(1.1);
+ }
+.pro .pp{
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.pro:hover .pp{
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
